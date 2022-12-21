@@ -1,5 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const isActive = ({ isCurrent }) => {
@@ -14,7 +15,15 @@ const Navbar = ({ siteTitle }) => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
+        {/* <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link> */}
+                              <StaticImage
+                                src="../images/lot.webp"
+                                width={30}
+                                quality={95}
+                                formats={["AUTO", "WEBP"]}
+                                alt="Logo"
+                                className="img-fluid"
+                              />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
                 aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -33,7 +42,21 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink
                 to="/about"
               >
-                About
+                O mnie
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
+                to="/offert"
+              >
+                Oferta
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
+                to="/contact"
+              >
+                Kontakt
               </ExactNavLink>
             </li>
           </ul>
