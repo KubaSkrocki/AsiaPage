@@ -4,19 +4,30 @@ body {
     color:#484D56 !important;
 }
 @import "~bootstrap/scss/bootstrap";
+@font-face {
+   font-family: OpenSans;
+   src: url(./open-sans-condensed.light.ttf);
+}
 
 // NAVBAR
 .navbar {
-  background-color: #F5DADF !important;
-  padding-left: 90px;
+  background-color: #fff !important;
+  // padding-left: 90px;
+}
+.navbar > .container-fluid {
+  flex-direction: column;
 }
 .navbar-nav .nav-link {
-  color:#fff;
+  color:#f3acac;
   font-weight: 100;
+  font-family: OpenSans;
+  font-size: 25px;
 }
 .navbar-nav .nav-link.active {
   font-weight: 700;
-  color:#fff;
+  color:#f3acac;
+  font-family: OpenSans;
+  font-size: 25px;
 }
 
 
@@ -24,9 +35,10 @@ body {
 .hero {
     width: 100%;
     position: relative;
-    background: #F5DADF;
+    background: #fff;
     padding: 60px 0 0 0;
     text-decoration: none;
+    font-family: OpenSans;
   }
   
   @media (min-width: 1365px) {
@@ -39,16 +51,15 @@ body {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 20px;
-    color: #fff;
+    color: #f3acac;
   }
   
   .hero p {
-    color: #fff;
+    color: #f3acac;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .hero .btn-get-started {
-    font-family: var(--font-primary);
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -56,7 +67,7 @@ body {
     padding: 14px 40px;
     border-radius: 50px;
     transition: 0.3s;
-    color: #fff;
+    color: #f3acac;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -97,12 +108,12 @@ body {
       left: 0;
       right: 0;
       height: calc(50% + 20px);
-      background-color: #F5DADF;
+      background-color: #fff;
     }
   }
   
   .hero .icon-box {
-    padding: 9em;
+    padding: 6.5em;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
@@ -118,13 +129,13 @@ body {
     background-image: url(../images/box_2.webp);
   }
   .hero .two {
-    background-image: url(../images/box_1.webp);
+    background-image: url(../images/offert3.png);
   }
   .hero .three {
-    background-image: url(../images/box_3.webp);
+    background-image: url(../images/contact.png);
   }
   .hero .four {
-    background-image: url(../images/box_4.webp);
+    background-image: url(../images/shop3.png);
   }
   .hero .icon-box .title {
     font-weight: 700;

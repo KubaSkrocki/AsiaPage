@@ -10,18 +10,18 @@ const IndexPage = () => (
               {/* <!-- ======= Hero Section ======= --> */}
                 <section id="hero" class="hero">
                   <div class="container position-relative">
-                    <div class="row gy-5" data-aos="fade-in">
-                      <div class="col-lg-4 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+                    <div class="row gy-5 justify-content-md-center" data-aos="fade-in">
+                      <div class="col-lg-3 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
                         <h2><span>Spokojny poród</span></h2>
                         <p>Narodziny Twojego dziecka to jedno z najważniejszych wydarzeń w Waszym życiu.​</p>
                         <p>Jest wiele aspektów porodu, jak i całe jego doświadczenie, które będą miały wpływ na całe Wasze życie, na Waszą więź, na rozwój i zdrowie Twojego jeszcze nienarodzonego maleństwa.​</p>
                         <p>Jest wiele pięknych porodów, które odbywają się w atmosferze spokoju, z pełnym zaufaniem do tego naturalnego procesu. Tutaj mam dla Ciebie dobrą wiadomość: możesz zrobić wiele, aby stworzyć możliwie jak najlepsze warunki dla Twojego maleństwa, by jego przyjście na świat było dobrym i spokojnym doświadczeniem dla Was wszystkich, a ja chcę Wam pomóc to osiągnąć.​</p>
                         <p>Pozwól sobie odkryć drogę do Twojego spokojnego porodu.​</p>
-                        <div class="d-flex justify-content-center justify-content-lg-start">
+                        {/* <div class="d-flex justify-content-center justify-content-lg-start">
                           <a href="/about" class="btn-get-started">Poznajmy się</a>
-                        </div>
+                        </div> */}
                       </div>
-                      <div class="col-lg-8 order-1 order-lg-2">
+                      <div class="col-lg-6 order-1 order-lg-2">
                                       <div class="icon-boxes position-relative">
                                         <div class="container position-relative">
                                           <div class="row gy-4 mt-5 hppict_mt-5">
@@ -45,7 +45,7 @@ const IndexPage = () => (
                                               </div>
                                             </div>
                                             <div class="col-xl-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                              <div class="icon-box three">
+                                              <div class="icon-box four">
                                                 <h4 class="title"><a href="" class="stretched-link">Sklep</a></h4>
                                               </div>
                                             </div>

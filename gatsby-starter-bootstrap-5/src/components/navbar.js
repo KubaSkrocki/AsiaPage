@@ -16,14 +16,14 @@ const Navbar = ({ siteTitle }) => {
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">
       <div className="container-fluid">
         {/* <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link> */}
-                              <StaticImage
+                              {/* <StaticImage
                                 src="../images/lot.webp"
                                 width={30}
                                 quality={95}
                                 formats={["AUTO", "WEBP"]}
                                 alt="Logo"
                                 className="img-fluid"
-                              />
+                              /> */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
                 aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
