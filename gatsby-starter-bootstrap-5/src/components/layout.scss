@@ -11,12 +11,12 @@ body {
   padding-left: 90px;
 }
 .navbar-nav .nav-link {
-  color:#f3acac;
+  color:#fff;
   font-weight: 100;
 }
 .navbar-nav .nav-link.active {
   font-weight: 700;
-  color:#f3acac;
+  color:#fff;
 }
 
 
@@ -39,13 +39,13 @@ body {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 20px;
-    color: #f3acac;
+    color: #fff;
   }
   
   .hero p {
-    color: #f3acac;
+    color: #fff;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .hero .btn-get-started {
     font-family: var(--font-primary);
@@ -56,11 +56,12 @@ body {
     padding: 14px 40px;
     border-radius: 50px;
     transition: 0.3s;
-    color: #f3acac;
+    color: #fff;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.1);
     text-decoration: none;
+    margin-top: 20px;
   }
   
   .hero .btn-get-started:hover {
@@ -101,12 +102,12 @@ body {
   }
   
   .hero .icon-box {
-    padding: 80px 50px;
+    padding: 9em;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
     transition: all 1s ease-in-out;
-    border-radius: 8px;
+    border-radius: 0px;
     z-index: 1;
     height: 100%;
     width: 100%;
@@ -154,4 +155,7 @@ body {
   .hero .icon-box:hover .title a,
   .hero .icon-box:hover .icon {
     color: #fff;
+  }
+  .hppict_mt-5 {
+    margin-top:0% !important;
   }
