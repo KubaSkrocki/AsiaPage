@@ -7,16 +7,16 @@ body {
 
 // NAVBAR
 .navbar {
-  background-color: #fff !important;
+  background-color: #F5DADF !important;
   padding-left: 90px;
 }
 .navbar-nav .nav-link {
-  color:#f3acac;
+  color:#fff;
   font-weight: 100;
 }
 .navbar-nav .nav-link.active {
   font-weight: 700;
-  color:#f3acac;
+  color:#fff;
 }
 
 
@@ -24,8 +24,9 @@ body {
 .hero {
     width: 100%;
     position: relative;
-    background: var(--color-primary);
+    background: #F5DADF;
     padding: 60px 0 0 0;
+    text-decoration: none;
   }
   
   @media (min-width: 1365px) {
@@ -38,16 +39,13 @@ body {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 20px;
-    color: #f3acac;
+    color: #fff;
   }
   
   .hero p {
-    color: #f3acac;
+    color: #fff;
     font-weight: 400;
-    margin-bottom: 30px;
-  }
-  .hero {
-    text-decoration: none;
+    margin-bottom: 10px;
   }
   .hero .btn-get-started {
     font-family: var(--font-primary);
@@ -58,11 +56,12 @@ body {
     padding: 14px 40px;
     border-radius: 50px;
     transition: 0.3s;
-    color: #f3acac;
+    color: #fff;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.1);
     text-decoration: none;
+    margin-top: 20px;
   }
   
   .hero .btn-get-started:hover {
@@ -98,17 +97,17 @@ body {
       left: 0;
       right: 0;
       height: calc(50% + 20px);
-      background-color: #fff;
+      background-color: #F5DADF;
     }
   }
   
   .hero .icon-box {
-    padding: 80px 50px;
+    padding: 9em;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
+    transition: all 1s ease-in-out;
+    border-radius: 0px;
     z-index: 1;
     height: 100%;
     width: 100%;
@@ -150,9 +149,13 @@ body {
   
   .hero .icon-box:hover {
     background: #f3acac;
+    transition-property: 50%;
   }
   
   .hero .icon-box:hover .title a,
   .hero .icon-box:hover .icon {
     color: #fff;
+  }
+  .hppict_mt-5 {
+    margin-top:0% !important;
   }
