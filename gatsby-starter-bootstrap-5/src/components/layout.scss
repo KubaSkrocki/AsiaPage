@@ -7,7 +7,7 @@ body {
 
 // NAVBAR
 .navbar {
-  background-color: #fff !important;
+  background-color: #F5DADF !important;
   padding-left: 90px;
 }
 .navbar-nav .nav-link {
@@ -24,8 +24,9 @@ body {
 .hero {
     width: 100%;
     position: relative;
-    background: var(--color-primary);
+    background: #F5DADF;
     padding: 60px 0 0 0;
+    text-decoration: none;
   }
   
   @media (min-width: 1365px) {
@@ -45,9 +46,6 @@ body {
     color: #f3acac;
     font-weight: 400;
     margin-bottom: 30px;
-  }
-  .hero {
-    text-decoration: none;
   }
   .hero .btn-get-started {
     font-family: var(--font-primary);
@@ -98,7 +96,7 @@ body {
       left: 0;
       right: 0;
       height: calc(50% + 20px);
-      background-color: #fff;
+      background-color: #F5DADF;
     }
   }
   
@@ -107,7 +105,7 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
     border-radius: 8px;
     z-index: 1;
     height: 100%;
@@ -150,6 +148,7 @@ body {
   
   .hero .icon-box:hover {
     background: #f3acac;
+    transition-property: 50%;
   }
   
   .hero .icon-box:hover .title a,
